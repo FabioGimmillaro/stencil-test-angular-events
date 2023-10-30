@@ -1,0 +1,13 @@
+{
+  "name": "component-library",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^16.2.0",
+    "@angular/core": "^16.2.0",
+    "test-angular-events": "file:../../../stencil-component-starter/test-angular-events-0.0.1.tgz"
+  },
+  "dependencies": {
+    "tslib": "^2.6.2"
+  },
+  "sideEffects": false
+}
