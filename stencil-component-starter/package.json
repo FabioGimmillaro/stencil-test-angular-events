@@ -25,7 +25,7 @@
     "test.watch": "stencil test --spec --e2e --watchAll",
     "generate": "stencil generate",
     "install-dependencies": "npm install && cd .. && cd angular-workspace && npm install",
-    "build:reproduce": "npm run install-dependencies && npm run build && cd ../angular-workspace/projects/component-library && npm install"
+    "build:reproduce": "npm run install-dependencies && npm run build && cd ../angular-workspace/projects/component-library && npm install && cd ../.. && npx -p @angular/cli ng build component-library"
   },
   "dependencies": {
     "@stencil/core": "^4.6.0"
